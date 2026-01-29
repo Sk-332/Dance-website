@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts
+  script(src='/static/index.js')
+
+block style
+  link(rel="stylesheet", href="/static/style.css")
+
+block content
+  section#introsection 
+    div Welcome to Sami's Dance Academy 
+    div.small Eat Sleep Dance Repeat
+
+  .main-section
+    .container
+      .mission-area
+        h2 Our Mission
+        .card-container
+          .card
+            h3 Dance Perfection
+            .card-img
+              img(src="/static/c1.png")
+            .card-content
+              p This is the best dance academy of the universe
+
+          .card
+            h3 Dance the way you like
+            .card-img
+              img(src="/static/c2.png")
+            .card-content
+              p This is the best dance academy of the universe
+
+          .card
+            h3 Expert Teaching
+            .card-img
+              img(src="/static/c3.png")
+            .card-content
+              p This is the best dance academy of the universe
+
+  .sponsor-area
+    h2 Our Sponsors
+    .sponsor-logos
+      img(src="/static/log1.png", alt="Sponsor Image", class="spImage")
+      img(src="/static/log2.png", alt="Sponsor Image", class="spImage")
+      img(src="/static/log3.png", alt="Sponsor Image", class="spImage")
+      img(src="/static/log4.png", alt="Sponsor Image", class="spImage")

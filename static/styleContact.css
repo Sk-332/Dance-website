@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "ZCOOL QingKe HuangYou";
+  src: url("/static/zcool-qingke-huangyou-webfont/ZCOOLQingKeHuangYou-Regular.woff")
+    format("woff");
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.container {
+  min-height: 70vh;
+  margin: 43px 75px;
+}
+.container h1 {
+  font-family: "ZCOOL QingKe HuangYou", sans-serif;
+  font-size: 34px;
+}
+
+.myForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.myInput {
+  font-size: 16px;
+  width: 50%;
+  padding: 9px;
+  margin: 8px;
+  border: 2px solid rgb(73, 70, 70);
+  border-radius: 12px;
+  outline: none;
+}
+.btn {
+  padding: 8px 16px;
+  font-size: 18px;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+  background: #e74242;
+  cursor: pointer;
+  outline: none;
+  margin: 26px;
+}
